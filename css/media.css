@@ -1,0 +1,65 @@
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+	.main {
+		flex-wrap: wrap;
+	}
+	.motivation__body {
+		flex-wrap: wrap;
+	}
+	
+
+	.tab ul {
+		padding: 50px 10px;
+	}
+	section .tab .second {
+	width: calc(100% / 3 );
+
+}
+.gallery__img  {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px){
+	section .tab .first {
+  width: calc(100% / 1 );
+}
+	section .tab .second {
+	width: calc(100% / 2 );
+}
+.img__first {
+		width: calc(100% / 1 - 20px) !important;
+	}
+	.img__second {
+		width: calc(100% / 1 - 20px) !important;
+	}
+	.gallery__img  {
+		margin: 0 auto;
+	}
+	.about__body {
+		flex-wrap:wrap;
+	}
+	.about__img {
+		width: 100% !important;
+	}
+	.about__content {
+		width: 100% !important;
+	}
+}
+
+
+@media (max-width: 576px){
+	.gallery__img  {
+		margin: 0 auto;
+	}
+	section .tab .second {
+	width: calc(100% / 1 );
+
+}
+.footer__head {
+	text-align: center;
+}
+
+}
